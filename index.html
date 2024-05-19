@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="text-center mt-8">
+      <h3 class="text-5xl font-bold italic text-cyan-500">Discount Shop</h3>
+    </header>
+    <main class="w-3/4 mx-auto bg-lime-300 mt-8 p-8 rounded-md">
+      <span class="text-3xl ">Price : </span>
+      <input
+        id="price-input-field"
+        class="p-2 rounded-md"
+        type="number"
+        placeholder="Amount"
+      />
+      <br>
+      <span class="text-3xl">Coupon :</span>
+      <input
+      id="Coupon-Input-Field"
+      class="p-2 mt-6 rounded-md"
+      type="text"
+      placeholder="Enter Secret Coupon.."
+    />
+      <br />
+      <button
+        id="apply-btn"
+        class="text-2xl bg-orange-600 mt-6 p-2 hover:bg-sky-700 text-white rounded-md "disabled
+      >
+        Apply
+      </button>
+      <span class="text-2xl text-purple-800">: 30% Off</span>
+      <br />
+      <!-- <div class="">
+        <button class="text-2xl bg-green-600 mt-6 p-2 hover:bg-yellow-700 text-white rounded-md">Please Pay</button>
+        <span class="text-2xl text-green-800">:</span>
+        <h2 id="please-pay" class="text-2xl">$00</h2>
+        </div> -->
+      <button
+        class="text-2xl bg-green-600 mt-6 p-2 hover:bg-yellow-700 text-white rounded-md"</button>
+        Please Pay
+      </button>
+      <span class="text-2xl text-green-800">:</span>
+      <span class="text-2xl text-purple-800">$<span id="please-pay">00</span></span>
+      <!-- <button class="text-2xl bg-green-600 mt-6 p-2 hover:bg-yellow-700 text-white rounded-md">Please Pay</button>
+        <span class="text-2xl text-green-800">:</span>
+        <h2  class="text-2xl">$<span id="please-pay">00</span></h2> -->
+      <!-- <span class="text-2xl">$<span class="please-pay" >00</span></span> -->
+    </main>
+  </body>
+  <script src="javascript/first.js"></script>
+</html>
